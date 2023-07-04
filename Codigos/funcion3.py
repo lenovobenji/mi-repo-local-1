@@ -18,3 +18,12 @@ fruits = [
 print(fruits)
 fruits.sort(key=mi_funcion)
 print(fruits)
+
+
+def mi_funcion(value)-> str:
+    value = str(value)
+    return value.lower()
+
+
+def mi_funcion(value)-> str:
+    returnsrt(value).lower()
